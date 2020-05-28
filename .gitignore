@@ -1,0 +1,5 @@
+node_modules
+_esy
+_build
+dummy-ppx.install
+.merlin

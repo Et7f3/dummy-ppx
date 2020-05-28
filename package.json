@@ -1,0 +1,12 @@
+{
+  "name": "dummy-ppx",
+  "version": "0",
+  "esy": {
+      "build": "dune build -p #{self.name}",
+      "buildsInSource": "_build"
+  },
+  "dependencies": {
+    "@opam/dune": "2.5.0",
+    "@opam/ocaml-migrate-parsetree": "1.7.3"
+  }
+}

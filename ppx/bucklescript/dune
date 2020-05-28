@@ -1,0 +1,4 @@
+(executable
+ (public_name dummy_ppx)
+ (package dummy-ppx)
+ (libraries dummy-ppx.lib ocaml-migrate-parsetree))
